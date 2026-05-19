@@ -860,7 +860,7 @@
 
                     <button type="button" class="toggle-table-btn" id="toggle-barang-jadi" aria-label="Tampilkan atau sembunyikan tabel barang jadi">
                         <span class="material-symbols-outlined" id="icon-barang-jadi">
-                            expand_more
+                            expand_less
                         </span>
                     </button>
                 </div>
@@ -1189,9 +1189,9 @@
                 contentBarangJadi.classList.toggle('is-hidden');
 
                 if (contentBarangJadi.classList.contains('is-hidden')) {
-                    iconBarangJadi.textContent = 'expand_less';
-                } else {
                     iconBarangJadi.textContent = 'expand_more';
+                } else {
+                    iconBarangJadi.textContent = 'expand_less';
                 }
             });
         }
