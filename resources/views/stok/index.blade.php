@@ -617,7 +617,7 @@
 
                     <div class="min-w-0">
                         <p class="stat-label text-on-surface-variant text-sm font-body-main uppercase tracking-wide">
-                            Total Jenis Bahan
+                           <b> Total Jenis Bahan </b>
                         </p>
                         <h3 class="stat-value text-3xl font-heading-lg mt-1">
                             {{ $totalJenisBahan }}
@@ -633,7 +633,7 @@
 
                     <div class="min-w-0">
                         <p class="stat-label text-on-surface-variant text-sm font-body-main uppercase tracking-wide">
-                            Total Pesanan Siap
+                            <b> Total Pesanan Siap </b>
                         </p>
                         <h3 class="stat-value text-3xl font-heading-lg mt-1">
                             {{ $totalPesananSiap }}
@@ -649,7 +649,7 @@
 
                     <div class="min-w-0">
                         <p class="stat-label text-on-surface-variant text-sm font-body-main uppercase tracking-wide">
-                            Stok Kritis
+                           <b> Stok Kritis </b>
                         </p>
                         <h3 class="stat-value text-3xl font-heading-lg mt-1">
                             {{ $stokKritis }}
@@ -672,17 +672,6 @@
                         Tambah Barang Jadi
                     </a>
 
-                    <div class="relative">
-                        <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant text-base">
-                            search
-                        </span>
-
-                        <input
-                            class="pl-10 pr-4 py-sm bg-white border border-outline-variant rounded-lg w-80 text-on-surface-variant focus:ring-primary focus:border-primary"
-                            id="table-search"
-                            placeholder="Cari nama bahan/barang..."
-                            type="text">
-                    </div>
                 </div>
 
                 <!-- Filter Button -->
